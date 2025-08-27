@@ -1,0 +1,43 @@
+
+    h1{
+        background-color: orange;
+        width: 150px;
+    }
+
+    .signup-box {
+  /* Basic styling for the box itself */
+  padding: 5px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  color: white; /* Text color for contrast */
+  margin: 50px auto; /* Center the box */
+
+  /* Apply the colorful gradient */
+  background-image: linear-gradient(
+    to right,  /* Direction: from left to right */
+    #ff6b6b,   /* Color 1 (e.g., red) */
+    #fabc05,   /* Color 2 (e.g., yellow) */
+    #4CAF50    /* Color 3 (e.g., green) */
+  );
+}
+
+.signup-box h2 {
+  margin-bottom: 15px;
+}
+
+.signup-box input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: none;
+  width: 90%;
+}
+
+.signup-box button {
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
